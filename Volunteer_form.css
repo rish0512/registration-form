@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    font-size: 20px;
+    margin: 15px 30px;
+    padding: 10px;
+}
+.container{
+    background-color: aliceblue;
+    padding: 10px;
+    border: 10px;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    background-color: #036723;
+    color: white;
+    padding: 10px 20px;
+    border: none ;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+   text-align: left;
+}
+fieldset{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 7px;
+    line-height: 40px;
+}
+.main_heading{
+    text-align: center;
+}
